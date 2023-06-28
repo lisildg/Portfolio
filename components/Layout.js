@@ -13,17 +13,17 @@ const Layout = ({ children }) => (
         <h4 className="container p-4">&copy; Lisi Gonzalez</h4>
         <div>
           <a href="https://www.linkedin.com/in/lisi-gonzalez/" target="_blank" rel="noopener noreferrer">
-            <AiFillLinkedin size={30} className="icon" /> Lisi Gonzalez
+            <AiFillLinkedin size={30} className="icon" />Lisi Gonzalez
           </a>
         </div>
         <div>
           <a href="https://api.whatsapp.com/send?phone=5493518034317" target="_blank" rel="noopener noreferrer">
-            <AiFillPhone size={30} className="icon" /> +5493518034317
+            <AiFillPhone size={30} className="icon" />+5493518034317
           </a>
         </div>
         <div>
           <a href="mailto:lisidanielagonzalez@gmail.com" target="_blank" rel="noopener noreferrer">
-            <AiFillMail size={30} className="icon" /> lisidanielagonzalez@gmail.com
+            <AiFillMail size={30} className="icon" />lisidanielagonzalez@gmail.com
           </a>
         </div>
         <br />
