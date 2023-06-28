@@ -25,7 +25,7 @@ export default function Home() {
           <div className="row py-2">
         <div className="card border-secondary">
           <h1 className="card-header text-secondary mb-3">Skills</h1>
-          <div className="card-body d-flex flex-wrap ">
+          <div className="card-body d-flex flex-wrap">
             {skills.map((item, index) => (
               <div key={index} className="d-flex align-items-center flex-fill mr-4">
                 <img src={item.icon} alt={item.name} className="img-fluid icon-img" />
@@ -41,7 +41,7 @@ export default function Home() {
         {projects.map(({ name, description, image, site }, i) => (
           <div key={i} className="col-md-4">
             <div className="card border-danger mb-3">
-              <h1 className="card-header ">{name}</h1>
+              <h1 className="card-header">{name}</h1>
               <div className="card-body d-flex flex-column ">
                 <img src={`/${image}`} alt="" />
                 <br />

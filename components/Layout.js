@@ -1,33 +1,36 @@
 import NavBar from "./NavBar";
-import linkedin from "../public/linkedin.svg";
-import phone from "../public/phone.svg";
-import mai from "../public/mai.svg";
+import { AiFillLinkedin } from 'react-icons/ai';
+import { AiFillPhone } from 'react-icons/ai';
+import { AiFillMail } from 'react-icons/ai';
 
-const Layout = ({children})=> (
-    <>
+const Layout = ({ children }) => (
+  <>
     <NavBar />
-    <main className="container py-4"> {children}</main>
-    
+    <main className="container py-4">{children}</main>
+
     <footer id="contact_me">
-        <div  className="bg-dark text-light text-center">
+      <div className="bg-dark text-light text-center">
+        <h4 className="container p-4">&copy; Lisi Gonzalez</h4>
         <div>
-            <img src="linkedin.svg" alt="LinkedIn" className="img-fluid icon-img"/>
-            <span></span>
-            </div>
-            <div>
-            <img src="phone.svg" alt="Teléfono" className="img-fluid icon-img"/>
-            <span>3548034317</span>
-            </div>
-            <div>
-            <img src="mai.svg" alt="correo electrónico" className="img-fluid icon-img"/>
-            <span>lisidanielagonzalez@gmail.com</span>
-            </div>
-            <h4 className="container p-4">&copy; Lisi Gonzalez</h4>
-            <p>2022 - {new Date().getFullYear()} </p>
+          <a href="https://www.linkedin.com/in/lisi-gonzalez/" target="_blank" rel="noopener noreferrer">
+            <AiFillLinkedin size={30} className="icon" /> Lisi Gonzalez
+          </a>
         </div>
+        <div>
+          <a href="https://api.whatsapp.com/send?phone=5493518034317" target="_blank" rel="noopener noreferrer">
+            <AiFillPhone size={30} className="icon" /> +5493518034317
+          </a>
+        </div>
+        <div>
+          <a href="mailto:lisidanielagonzalez@gmail.com" target="_blank" rel="noopener noreferrer">
+            <AiFillMail size={30} className="icon" /> lisidanielagonzalez@gmail.com
+          </a>
+        </div>
+        <br />
+        <p>2022 - {new Date().getFullYear()} </p>
+      </div>
     </footer>
-    
-    </>
-)
+  </>
+);
 
 export default Layout;

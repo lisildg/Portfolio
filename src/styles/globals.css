@@ -29,4 +29,11 @@ body {
   width: 40px; /* Ajusta el tamaño de las imágenes según tus necesidades */
   height: 30px;
 }
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px; /* Opcional: añade un margen derecho para separar el icono del texto */
+}
+
 
