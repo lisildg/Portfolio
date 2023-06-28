@@ -12,17 +12,17 @@ const Layout = ({ children }) => (
       <div className="bg-dark text-light text-center">
         <h4 className="container p-4">&copy; Lisi Gonzalez</h4>
         <div>
-          <a href="https://www.linkedin.com/in/lisi-gonzalez/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/lisi-gonzalez/" target="_blank" rel="noopener noreferrer" className="icon-link">
             <AiFillLinkedin size={30} className="icon" />Lisi Gonzalez
           </a>
         </div>
         <div>
-          <a href="https://api.whatsapp.com/send?phone=5493518034317" target="_blank" rel="noopener noreferrer">
+          <a href="https://api.whatsapp.com/send?phone=5493518034317" target="_blank" rel="noopener noreferrer" className="icon-link">
             <AiFillPhone size={30} className="icon" />+5493518034317
           </a>
         </div>
         <div>
-          <a href="mailto:lisidanielagonzalez@gmail.com" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:lisidanielagonzalez@gmail.com" target="_blank" rel="noopener noreferrer" className="icon-link">
             <AiFillMail size={30} className="icon" />lisidanielagonzalez@gmail.com
           </a>
         </div>

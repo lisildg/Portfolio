@@ -26,14 +26,18 @@ body {
     rgb(var(--background-start-rgb));
 }
 .icon-img {
-  width: 40px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+  width: 40px; 
   height: 30px;
 }
 .icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-right: 5px; /* Opcional: añade un margen derecho para separar el icono del texto */
+  margin-right: 5px; 
 }
+.icon-link:hover {
+  color: #a98eda;
+}
+
 
 
