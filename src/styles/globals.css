@@ -26,6 +26,7 @@ body {
     rgb(var(--background-start-rgb));
 }
 .icon-img {
-  width: 30px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+  width: 40px; /* Ajusta el tamaño de las imágenes según tus necesidades */
   height: 30px;
 }
+
