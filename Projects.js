@@ -12,6 +12,7 @@ const projects = [
         name: "Next Holiday",
         description: "It is an app that displays the next holiday in Argentina, how many days are left until it, and which was the previous holiday.",
         image: "nextholiday.png",
+        techStack: "",
         site: "https://main--strong-elf-847f44.netlify.app/"
     },
     {

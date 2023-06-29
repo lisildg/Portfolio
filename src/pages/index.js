@@ -36,11 +36,11 @@ export default function Home() {
         </div>
       </div>
  
-      <div className="row">
+      <div className="row min-h-100">
         <h1 className="text-danger text-center font-bold mb-4" id="projects">Pojects</h1>
         {projects.map(({ name, description, image, site }, i) => (
           <div key={i} className="col-md-4">
-            <div className="card border-danger mb-3">
+            <div className="card border-danger mb-3" style={{minHeight:"560px"}}>
               <h1 className="card-header">{name}</h1>
               <div className="card-body d-flex flex-column ">
                 <img src={`/${image}`} alt="" />
