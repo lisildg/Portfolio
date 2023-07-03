@@ -38,7 +38,7 @@ export default function Home() {
  
       <div className="row min-h-100">
         <h1 className="text-danger text-center font-bold mb-4" id="projects">Pojects</h1>
-        {projects.map(({ name, description, image, site }, i) => (
+        {projects.map(({ name, description, image, site,techStack }, i) => (
           <div key={i} className="col-md-4" style={{minHeight:"560px"}}>
             <div className="card border-danger mb-3" style={{minHeight:"100%"}}>
               <h1 className="card-header">{name}</h1>
@@ -48,6 +48,10 @@ export default function Home() {
                 <div className="d-flex align-items-center">
                   <p className="text-center">{description}</p>
                 </div>
+                <div className="d-flex align-items-center">
+                  <p className="text-center">TechStack: {techStack}</p>
+                </div>
+
                 <a href={site} target="_blank" rel="noopener noreferrer" className="btn btn-danger">
             See More
           </a>
