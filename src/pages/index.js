@@ -45,11 +45,11 @@ export default function Home() {
               <div className="card-body d-flex flex-column ">
                 <img src={`/${image}`} alt="" />
                 <br />
-                <div className="d-flex align-items-center">
+                <div className="d-flex align-items-center text-danger">
                   <p className="text-center">{description}</p>
                 </div>
                 <div className="d-flex align-items-center">
-                  <p className="text-center">Tech Stack: {techStack}</p>
+                  <p className="text-center ">Tech Stack: {techStack}</p>
                 </div>
 
                 <a href={site} target="_blank" rel="noopener noreferrer" className="btn btn-danger">
