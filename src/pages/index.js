@@ -49,7 +49,7 @@ export default function Home() {
                   <p className="text-center">{description}</p>
                 </div>
                 <div className="d-flex align-items-center">
-                  <p className="text-center">TechStack: {techStack}</p>
+                  <p className="text-center">Tech Stack: {techStack}</p>
                 </div>
 
                 <a href={site} target="_blank" rel="noopener noreferrer" className="btn btn-danger">
