@@ -31,5 +31,12 @@ const projects = [
         techStack: " Vite, React, TypeScript, CSS, HTML",
         site: "https://cheerful-donut-3ff63f.netlify.app/"
     },
+    {
+        name: "Rick and Morty",
+        description:"This is a web application where you can view the characters, locations, and episodes of Rick and Morty. You can filter them by gender, species, and status. You can also filter characters by name search. Additionally, you can see the characters that appear in each episode and location." ,
+        image:"rickandmorty.png",
+        techStack:"React, JavaScript, CSS, Bootstrap, Bootswatch",
+        site:"https://rick-and-morty-lisi.vercel.app/",
+    }
 ];
 export default projects;
