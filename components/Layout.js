@@ -2,6 +2,7 @@ import NavBar from "./NavBar";
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiFillPhone } from 'react-icons/ai';
 import { AiFillMail } from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
 
 const Layout = ({ children }) => (
   <>
@@ -14,6 +15,11 @@ const Layout = ({ children }) => (
         <div>
           <a href="https://www.linkedin.com/in/lisi-gonzalez/" target="_blank" rel="noopener noreferrer" className="icon-link">
             <AiFillLinkedin size={30} className="icon" />Lisi Gonzalez
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/lisildg" target="_blank" rel="noopener noreferrer" className="icon-link">
+            <AiFillGithub size={30} className="icon" />lisildg
           </a>
         </div>
         <div>
