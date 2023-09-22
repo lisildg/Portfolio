@@ -63,11 +63,11 @@ const NavBar = () => {
             </ul>
           </div>
         </div>
-        {/* <div className="ml-auto">
+        <div className="ml-auto">
           <a href="ruta-a-tu-cv.pdf" download="nombre-de-tu-cv.pdf">
-            <button type="button" className="btn btn-warning">Download CV</button>
+            <button type="button" className="btn btn-warning disabled">Download CV</button>
           </a>
-        </div> */}
+        </div>
       </div>
     </nav>
   );
