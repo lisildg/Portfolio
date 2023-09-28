@@ -18,6 +18,13 @@ const projects = [
         site:"https://rick-and-morty-lisi.vercel.app/",
     },
     {
+        name: "Weather App",
+        description: "It's a weather app that has a search feature where you choose the city to display the maximum temperature, minimum temperature, wind chill, visibility, humidity, wind speed, air pressure, sunrise time, sunset time, and it also provides a forecast for the next 7 days.",
+        image: "weather.png",
+        techStack: " Next, React, JavaScript, CSS, Tailwind, HTML",
+        site: "https://weatherapp-lisildg.vercel.app/"
+    },
+    {
         name: "Next Holiday",
         description: "It is an app that displays the next holiday in Argentina, how many days are left until it, and which was the previous holiday.",
         image: "nextholiday.png",
