@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import CVButton from './CVButton';
 
 const NavBar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -64,9 +65,7 @@ const NavBar = () => {
           </div>
         </div>
         <div className="ml-auto">
-          <a href="ruta-a-tu-cv.pdf" download="nombre-de-tu-cv.pdf">
-            <button type="button" className="btn btn-warning disabled">Download CV</button>
-          </a>
+          <CVButton />
         </div>
       </div>
     </nav>
