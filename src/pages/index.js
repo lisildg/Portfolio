@@ -22,7 +22,7 @@ export default function Home() {
       </div>
     </div>
 
-          <div className="row py-2">
+    <div className="row py-2">
         <div className="card border-secondary">
           <h1 className="card-header text-secondary mb-3">Skills</h1>
           <div className="card-body d-flex flex-wrap">
@@ -37,7 +37,7 @@ export default function Home() {
       </div>
  
       <div className="row min-h-100">
-        <h1 className="text-danger text-center font-bold mb-4" id="projects">Pojects</h1>
+        <h1 className="text-danger text-center font-bold mb-4" id="projects">Projects</h1>
         {projects.map(({ name, description, image, site,techStack }, i) => (
           <div key={i} className="col-md-4" style={{minHeight:"560px"}}>
             <div className="card border-danger mb-3" style={{minHeight:"100%"}}>
