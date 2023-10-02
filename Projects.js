@@ -25,11 +25,18 @@ const projects = [
         site: "https://weatherapp-lisildg.vercel.app/"
     },
     {
+        name: "Reflex Game",
+        description: "It's a reflex game, as you accumulate more points in the game, the difficulty increases as the button becomes smaller.",
+        image: "reflex.png",
+        techStack: " Vite, React, TypeScript, CSS, HTML",
+        site: "https://reflexgame-lisildg.netlify.app/"
+    },
+    {
         name: "Next Holiday",
         description: "It is an app that displays the next holiday in Argentina, how many days are left until it, and which was the previous holiday.",
         image: "nextholiday.png",
         techStack: " Vite, React, TypeScript, CSS, HTML",
-        site: "https://main--strong-elf-847f44.netlify.app/"
+        site: "https://nextholiday-lisildg.netlify.app/"
     },
     {
         name: "Food App",
@@ -38,13 +45,7 @@ const projects = [
         techStack: " Redux, CSS, React, Express, PostgreSQL, Sequelize",
         site: "https://github.com/lisildg/Food"
     },
-     {
-        name: "Reflex Game",
-        description: "It's a reflex game, as you accumulate more points in the game, the difficulty increases as the button becomes smaller.",
-        image: "reflex.png",
-        techStack: " Vite, React, TypeScript, CSS, HTML",
-        site: "https://cheerful-donut-3ff63f.netlify.app/"
-    },
+    
     
 ];
 export default projects;
