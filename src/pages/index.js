@@ -22,19 +22,7 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="row py-2">
-        <div className="card border-secondary">
-          <h1 className="card-header text-secondary mb-3">Skills</h1>
-          <div className="card-body d-flex flex-wrap">
-            {skills.map((item, index) => (
-              <div key={index} className="d-flex align-items-center flex-fill mr-4">
-                <img src={item.icon} alt={item.name} className="img-fluid icon-img" />
-                <h3 className="ml-3">{item.name}</h3>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
+    
  
       <div className="row min-h-100">
         <h1 className="text-danger text-center font-bold mb-4" id="projects">Projects</h1>
@@ -60,6 +48,19 @@ export default function Home() {
           </div>
         ))}
       </div> 
+      <div className="row py-2">
+        <div className="card border-secondary">
+          <h1 className="card-header text-secondary mb-3">Skills</h1>
+          <div className="card-body d-flex flex-wrap">
+            {skills.map((item, index) => (
+              <div key={index} className="d-flex align-items-center flex-fill mr-4">
+                <img src={item.icon} alt={item.name} className="img-fluid icon-img" />
+                <h3 className="ml-3">{item.name}</h3>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
 
   </Layout>
   )
