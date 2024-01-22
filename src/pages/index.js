@@ -8,13 +8,14 @@ export default function Home() {
     <div className="d-flex flex-wrap align-items-center justify-center mx-auto">
       <div className="flex-grow-1 mr-12 max-w-lg">
         <h2 className="text-center" id="About_me">Hello there! Lisi here</h2>
-        <p className="text-aling-center text-info">
-          I consider myself a curious individual who is constantly seeking personal and professional growth. As a Full Stack Developer, my passion lies in front-end development and design. I thoroughly enjoy bringing ideas to life through creative and innovative projects, both in terms of design and project outcomes.
-        </p>
-        <br />
-        <p className="text-info">
-          I'm a proactive learner who stays updated with the latest technologies and industry trends. I thrive on challenges, constantly expanding my skill set and embracing new possibilities. Collaboration is important to me, and I enjoy working with talented professionals to turn ideas into reality.
-        </p>
+        <p className="text-align-center text-info">
+  As a Full Stack Developer, I am a curious individual dedicated to personal and professional growth. My passion lies in front-end development and design, where I    bring ideas to life through creative projects.
+</p>
+<p  className="text-align-center text-info"> I thrive on challenges, expanding my skill set and embracing new possibilities. Collaboration is important to me, and I enjoy working with talented professionals to turn ideas into reality.</p>
+<p className="text-align-center text-info">
+  Additionally, I am currently learning about UX/UI design to further enhance my skills.
+</p>
+
         <br /> 
       </div>
       <div className="flex-grow-0 mt-12 ml-12 mb-5">
@@ -48,7 +49,18 @@ export default function Home() {
           </div>
         ))}
       </div> 
-      <div className="row py-2">
+
+      <div className="row min-h-100 mt-4">
+        <h1 className="text-warning text-center font-bold mb-4" id="projects">Desing Projects</h1>
+        </div>
+        <div className="card border-warning">
+          <h1 className="card-header text-warning mb-3">coming soon...</h1>
+          <p className="text-align-center m-4 text-warning">I'm currently working on a UX design project using Figma to create the layout for an e-commerce website. Once it's nearly finished, I'll upload it, and you'll be able to see it</p>
+          <div className="card-body d-flex flex-wrap"> 
+          </div>
+          </div>
+
+      <div className="row py-2 mt-4">
         <div className="card border-secondary">
           <h1 className="card-header text-secondary mb-3">Skills</h1>
           <div className="card-body d-flex flex-wrap">
@@ -61,6 +73,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      
 
   </Layout>
   )
