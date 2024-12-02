@@ -9,7 +9,7 @@ const CVButton = () => {
     const link = document.createElement('a');
     link.href = pdfURL;
     link.target = '_blank'; // Abre el enlace en una nueva pestaña/tab
-    link.download = 'Lisi_CV.pdf'; // Nombre de archivo de descarga
+    link.download = 'Lisi_Gonzalez_CV.pdf'; // Nombre de archivo de descarga
 
     // Simula un clic en el enlace para iniciar la descarga
     link.click();
